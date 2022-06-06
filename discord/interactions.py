@@ -83,7 +83,7 @@ class Interaction:
     """Represents a Discord interaction.
 
     An interaction happens when a user does an action that needs to
-    be notified. Current examples are slash commands and components.
+    be notified. Current examples are slash commands, components and modals.
 
     .. versionadded:: 2.0
 

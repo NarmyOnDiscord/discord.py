@@ -207,7 +207,7 @@ class Guild(Hashable):
     verification_level: :class:`VerificationLevel`
         The guild's verification level.
     vanity_url_code: Optional[:class:`str`]
-        The guild's vanity url code, if any
+        The guild's vanity url code, if any.
 
         .. versionadded:: 2.0
     explicit_content_filter: :class:`ContentFilter`
@@ -222,7 +222,7 @@ class Guild(Hashable):
 
         - ``ANIMATED_BANNER``: Guild can upload an animated banner.
         - ``ANIMATED_ICON``: Guild can upload an animated icon.
-        - ``BANNER``: Guild can upload and use a banner. (i.e. :attr:`.banner`)
+        - ``BANNER``: Guild can upload and use a banner (i.e. :attr:`.banner`).
         - ``COMMERCE``: Guild can sell things using store channels.
         - ``COMMUNITY``: Guild is a community server.
         - ``DISCOVERABLE``: Guild shows up in Server Discovery.
